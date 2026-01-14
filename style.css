@@ -1,0 +1,223 @@
+body {
+  font-family: Arial;
+  background: #eef2f7;
+  margin: 0;
+  text-align: center;
+}
+
+/* ENCABEZADO */
+.header {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  padding: 40px 20px;
+}
+
+.header-contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+}
+
+.textos h1 {
+  margin: 0;
+  font-size: 46px;
+}
+
+.textos p {
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+/* PANEL MENÚ */
+.panel {
+  width: 360px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+/* ITEMS DEL MENÚ */
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  margin: 12px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: transform 0.2s;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.g2 { background: #ffe6e6; }
+.g3 { background: #e6f7ff; }
+
+/* CONTENIDO */
+.contenido {
+  display: none;
+  margin: 60px;
+}
+
+/* SECCIÓN INFERIOR */
+.info {
+  background: white;
+  margin-top: 60px;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.bloque {
+  width: 280px;
+  background: #f5f7fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.bloque h3 {
+  margin-top: 0;
+}
+/* PREGUNTAS FRECUENTES */
+.faq {
+  background: #fff3d6;   /* crema pastel */
+  margin: 60px auto;
+  padding: 40px;
+  width: 95%;
+  max-width: 1100px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.faq h3 {
+  margin-top: 0;
+  color: #1e3c72;
+}
+
+.faq p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+/* BOTÓN WHATSAPP */
+.whatsapp {
+  margin: 40px auto;
+}
+
+.whatsapp a {
+  display: inline-block;
+  background: #25D366;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.whatsapp a:hover {
+  transform: scale(1.05);
+}
+
+/* CUADRO MAPA */
+.mapa {
+  background: #e9f5ec;   /* verde pastel suave */
+  padding: 25px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.mapa h3 {
+  margin-top: 0;
+  color: #1e3c72;
+}
+
+/* CONTENEDOR DE BOTONES EN G3 */
+.acciones {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 25px 0;
+}
+
+/* BOTÓN PSICOTÉCNICO */
+.psicotecnico a {
+  display: inline-block;
+  background: #ffe0b2;   /* crema pastel */
+  color: #5a3d1c;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #f1c27d;
+}
+
+.psicotecnico a:hover {
+  background: #ffd39c;
+}
+
+/* CONTENEDOR PARA ALINEAR BOTONES */
+.acciones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;      /* más cerca */
+  width: fit-content;
+  margin: 30px auto;
+}
+
+/* GRID DE BLOQUES G3 */
+.grid-g3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+  gap: 25px;
+  margin-top: 30px;
+}
+
+/* TARJETAS */
+.card-g3 {
+  background: #e0f2ff; /* crema pastel */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card-g3 h3 {
+  margin-bottom: 10px;
+  color: #5a3d1c;
+}
+
+.card-g3 p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.info .bloque {
+  background: #e9f5ec;   /* verde claro pastel */
+  padding: 20px;
+  border-radius: 12px;
+}
+
