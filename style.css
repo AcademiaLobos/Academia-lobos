@@ -98,7 +98,7 @@ body {
 }
 /* PREGUNTAS FRECUENTES */
 .faq {
-  background: #fff3d6;   /* crema pastel */
+  background: #ffe6e6;   /* crema pastel */
   margin: 60px auto;
   padding: 40px;
   width: 95%;
@@ -221,3 +221,28 @@ body {
   border-radius: 12px;
 }
 
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  width: 100%;
+  background: #e0f2ff;
+  border: none;
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px 15px;
+  background: #f8fafc;
+  border-radius: 0 0 8px 8px;
+}
+
+.faq-answer p {
+  margin: 6px 0;
+}
