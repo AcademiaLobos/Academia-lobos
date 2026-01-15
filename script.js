@@ -13,3 +13,10 @@ function volver() {
   document.querySelector(".header").style.display = "block";
   document.querySelector(".info").style.display = "flex";
 }
+
+document.querySelectorAll(".faq-question").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const answer = btn.nextElementSibling;
+    answer.style.display = answer.style.display === "block" ? "none" : "block";
+  });
+});
