@@ -98,7 +98,7 @@ body {
 }
 
 .bloque p {
-  font-size: 16px;      /* igual que FAQ */
+  font-size: 20px;      /* igual que FAQ */
   line-height: 1.6;     /* separación linda */
   margin: 10px 0;
 }
@@ -121,7 +121,7 @@ body {
 }
 
 .faq p {
-  font-size: 16px;
+  font-size: 18px;
   margin: 8px 0;
 }
 
@@ -221,7 +221,7 @@ body {
 }
 
 .card-g3 p {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
