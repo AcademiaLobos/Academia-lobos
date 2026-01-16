@@ -261,6 +261,7 @@ body {
 }
 
 /* ====== TEXTO MÁS GRANDE EN CELULAR ====== */
+/* ====== TEXTO MÁS GRANDE EN CELULAR ====== */
 @media (max-width: 768px) {
 
   .card-g2,
@@ -281,6 +282,12 @@ body {
     font-size: 18px !important;
   }
 
+  /* 👇 ESTO LO AGREGÁS */
+  .grid-g3 {
+    grid-template-columns: 1fr;
+  }
+
 }
+
 
 
