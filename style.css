@@ -261,7 +261,6 @@ body {
 }
 
 /* ====== TEXTO MÁS GRANDE EN CELULAR ====== */
-/* ====== TEXTO MÁS GRANDE EN CELULAR ====== */
 @media (max-width: 768px) {
 
   .card-g2,
@@ -286,8 +285,33 @@ body {
   .grid-g3 {
     grid-template-columns: 1fr;
   }
+  
+    /* ===== BLOQUES DE CONTACTO / INFO EN CELULAR ===== */
+
+  .info .bloque,
+  .mapa {
+    font-size: 18px;
+  }
+
+  .info .bloque h3,
+  .mapa h3 {
+    font-size: 24px;
+  }
+
+  .info .bloque p,
+  .mapa p,
+  .info .bloque li {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .whatsapp a {
+    font-size: 20px;
+    padding: 18px 28px;
+  }
 
 }
+
 
 
 
