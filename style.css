@@ -106,24 +106,49 @@ body {
 
 /* PREGUNTAS FRECUENTES */
 .faq {
-  background: #ffe6e6;   /* crema pastel */
+  background: #ffe6e6;        /* crema pastel */
   margin: 60px auto;
-  padding: 40px;
+  padding: 50px;              /* más espacio interno */
   width: 95%;
-  max-width: 1100px;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 1200px;          /* más ancho */
+  border-radius: 16px;        /* bordes más suaves */
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
+/* Título general de la sección */
 .faq h3 {
   margin-top: 0;
   color: #1e3c72;
+  font-size: 28px;            /* más grande */
+  margin-bottom: 25px;
+  text-align: center;         /* centrado */
 }
 
-.faq p {
-  font-size: 18px;
-  margin: 8px 0;
+/* Cada bloque individual de pregunta */
+.faq-item {
+  background: #f8fafc;        /* fondo claro para cada bloque */
+  border: 2px solid #d1d5db;  /* borde gris suave */
+  border-radius: 12px;
+  padding: 20px;              /* más grande */
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
+
+/* Texto de cada pregunta */
+.faq-item .faq-question {
+  font-size: 22px;            /* más grande */
+  font-weight: bold;
+  color: #1e3c72;
+  margin-bottom: 10px;
+}
+
+/* Texto de cada respuesta */
+.faq-item .faq-answer {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
 
 /* BOTÓN WHATSAPP */
 .whatsapp {
@@ -256,6 +281,7 @@ body {
 .faq-answer p {
   margin: 6px 0;
 }
+
 
 
 
